@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Peter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Peter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Peter, </h2>
+                <p class="hero_desc">A professional Data Analyst</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/Mark.JPG" class= "imageAboutPage" alt="">
+                </div>
+
+                <!-- <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <img src="images/Mark.JPG" class="img-fluid" alt="">
+                  </div> -->
+
+                <div class="col-lg-8">
+                    <!-- <p> Self-motivated data analyst driven to transform raw data into actionable insights that achieve business goals and objectives. 
+                        Brings strong analytical abilities, data storytelling skills, and a passion for querying data to drive optimal outcomes. Seeking to leverage expertise across data mining, metrics analysis, visualization 
+                        tools, critical thinking, and problem-solving to provide key insights and recommend data-backed solutions for company growth.
+                    </p> -->
+                    <!-- <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: David Parker</li>
+                                <li>Age: 28</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: David Parker</li>
+                                <li>Age: 28</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <div class="row mt-3">
+                        <p> 
+                            I am a data analyst freelancer who transforms raw data into impactful insights for clients across various industries and domains. 
+              With a bachelor's degree in computer science from Egerton-Njoro, I have honed my problem-solving and analytical skills, as well as my expert-level proficiency in SQL, Excel, Tableau, and Python Pandas.
+
+            I leverage these tools to query datasets, develop reports and dashboards, and guide data-driven strategy.
+            I am passionate about telling compelling stories through interactive visualizations and clearly communicating trends. I am a diligent self-starter who can work independently to dig into the data, identify optimization opportunities, and contribute recommendations that drive growth.
+            I am known for exceeding client expectations ahead of tight deadlines while maintaining high quality standards.
+                    </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Data Analysis</h4>
+                            <p class="card-text mt-3">Explored correlations in film industry data for over 7,000 movies using Pandas and statistical methods. 
+                                Findings provided actionable insights on production budget allocation.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Python</h4>
+                            <p class="card-text mt-3">Cleaned raw film data and conducted exploratory 
+                                analysis using Pandas and Matplotlib to graph trends in budget, revenue, and financial predictors of movie success.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Data Visualization and Tableau</h4>
+                            <p class="card-text mt-3">Built interactive Tableau dashboard for Airbnb hosts to analyze listing occupancy 
+                                and optimize pricing, increasing revenue by 10%.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Business Intelligence</h4>
+                            <p class="card-text mt-3">Designed BI solution to track 100+ KPIs for manufacturer locations, enabling optimized production planning.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">SQL</h4>
+                            <p class="card-text mt-3">Wrote advanced SQL queries statements encompassing data manipulation, transaction controls, conditional expressions, window functions,aggregate functions,CTEs, and 
+                                stored procedures to facilitate customized aggregation, and reporting for multi-department analytics on enterprise dataset.</p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Excel</h4>
+                            <p class="card-text mt-3">Supported movie data analysis with Excel tools like PivotTables to aggregate 
+                                metrics and derive descriptive statistics on production budget and return on investment.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Movie Trends</h4>
+                            <p class="card-text">The project conducts an exploratory data analysis on a dataset of over 7,000 films 
+                                to uncover insights into movie budgeting, performance, and correlations between key variables.
+
+                                The analysis focuses on identifying factors that may influence movie financial success. 
+                                After cleaning the raw data and handling missing values, relationships are explored between
+                                 budget, gross earnings, release year, production company & country, and major genre categorizations.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/PeterMakori/Movie-Exploring-Trends-in-Film-Data/blob/main/Movie%20Correlation_Exploring%20Trends%20in%20Film%20Data.ipynb" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">SQL</h4>
+                            <p class="card-text">SQL code project for creating tables, inserting data, and performing various SQL operations. 
+                                It covers basic SQL commands to more advanced concepts like CASE statements, 
+                                UNION ALL, HAVING clause, UPDATE/DELETE operations, ALIASING, PARTITIONING, and use of STORED PROCEDURES.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/PeterMakori/SQL-CODE/blob/main/SQLQuery1.sql" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Airbnb Listings Dashboard</h4>
+                            <p class="card-text">Developed an interactive Tableau dashboard providing insights into Airbnb listings data for hosts and property managers. Performed data cleaning on listing details including location, reviews, availability, and pricing. Created visualizations including maps, charts, Aggregated metrics on listing performance over time and by neighborhood. The dashboard empowers users to analyze market
+                                occupancy rates and optimize pricing strategies to maximize revenue.</p>
+                            <div class="text-center">
+                                <a href="https://public.tableau.com/app/profile/peter.makori/viz/AirbnbTableauDashboad/Dashboard1" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Global Video Sales Dashboard</h4>
+                            <p class="card-text">Designed interactive Tableau dashboard providing global sales and performance data for video content releases across multiple regions. This dynamic, visually rich dashboard
+                                 enables media executives to quickly visualize and slice global sales data along several dimensions.</p>
+                            <div class="text-center">
+                                <a href="https://public.tableau.com/app/profile/peter.makori/viz/GlobalVideoSalesDashboard_17008388783490/Dashboard1" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/church.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+
+                            <br/> <br/> <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h4 class="card-title">Church Website</h4>
+                            <p class="card-text"> </p> 
+                            <br/> <br/> <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+    </section>
+
+
+
+    <section id="contact">
+        <!-- <div class="container"> -->
+
+            
+                <div class="container mt-4 contactContent">
+                    <h1 class="text-center">Contact Me</h1>
+  
+          <!-- <div class="section-header">
+            <h3>Contact Me</h3>
+          </div> -->
+  
+          <div class="row wow fadeInUp">
+  
+            
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-2 info">                
+                  <p> <a href="https://github.com/PeterMakori" target="_blank"><i class="fa fa-github"></i></a></p>
+                </div>
+  
+                  <div class="col-md-2 info">
+                
+                  <p> <a href="https://public.tableau.com/app/profile/peter.makori/vizzes" target="_blank">  <i class="fa fa-line-chart"></i></a></p>
+                </div>
+                  
+                <div class="col-md-2 info">
+                
+                  <p> <a href="https://www.linkedin.com/in/peter-makori-367825164/" target="_blank">  <i class="fa fa-linkedin"></i></a></p>
+                </div>
+  
+                <div class="col-md-2 info">
+      
+                  <p> <a href="https://twitter.com/petermakss" target="_blank"> <i class="fa fa-twitter"></i></a></p>
+                </div>
+                
+                <div class="col-md-2 info">
+                 
+                  <p> <a href="https://web.facebook.com/profile.php?id=100010834512455" target="_blank"><i class="fa fa-facebook"></i></a></p>
+                </div> 
+                
+                <div class="col-md-2 info">
+                  
+                  <p> <a href="https://Instagram.com/peter_makss" target="_blank"><i class="fa fa-instagram"></i></a></p>
+                </div>
+  
+                
+                
+              </div>
+             
+              </div>
+  
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-md-6 info">
+                    <i class="fa fa-envelope-o"></i>
+                    <p>petermakss42@gmail.com</p>
+                  </div>
+                  <div class="col-md-6 info">
+                    <i class="fa fa-phone"></i>
+                    <p>+254 792 313 490</p>
+                  </div>
+                  </div>
+  
+            
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- #contact -->
+  
+
+
+    
+    <!-- footer section-->
+    <!-- <footer id="footer">
+        <div class="container-fluid"> -->
+            <!-- social media icons -->
+            <!-- <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- load javascript after loading all html content -->
+
+
+    <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; <script> document.write(new Date().getFullYear())</script> 
+            </div>
+      <div class="credits">
+      Designed by <a href="https://petermakori.github.io/">Peter Makori</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!--Main Javascript File -->
+ 
+    <script src="script/script.js"></script>
+     <script src="script/main.js"></script>
+    
+
+</body>
+
+</html>
