@@ -75,3 +75,10 @@
     background-color: #808080;
     text-align: center;
 }
+
+#preloader {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* Add any additional styling as needed */
+}
